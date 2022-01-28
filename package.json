@@ -171,7 +171,7 @@
     "web:start": "yarn run web:start-server",
     "web:watch-examples": "yarn run web:bundle-watch-inject && yarn run web:watch",
     "web:watch": "npm-run-all build:lib --parallel watch:css web:watch-examples web:bundle-watch-inject web:start_server",
-    "prepare": "npm run build"
+    "prepare": "yarn run build"
   },
   "jest": {
     "automock": false,
