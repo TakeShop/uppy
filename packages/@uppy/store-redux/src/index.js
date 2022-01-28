@@ -1,4 +1,4 @@
-const { nanoid } = require('nanoid/non-secure')
+const { nanoid } = require('nanoid')
 
 // Redux action name.
 const STATE_UPDATE = 'uppy/STATE_UPDATE'
