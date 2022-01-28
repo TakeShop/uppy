@@ -170,7 +170,8 @@
     "web:start-server": "cd website && touch db.json && node inject.js && node build-examples.js && yarn run hexo server",
     "web:start": "yarn run web:start-server",
     "web:watch-examples": "yarn run web:bundle-watch-inject && yarn run web:watch",
-    "web:watch": "npm-run-all build:lib --parallel watch:css web:watch-examples web:bundle-watch-inject web:start_server"
+    "web:watch": "npm-run-all build:lib --parallel watch:css web:watch-examples web:bundle-watch-inject web:start_server",
+    "prepare": "npm run build"
   },
   "jest": {
     "automock": false,
